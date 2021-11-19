@@ -3205,26 +3205,26 @@ textarea.form-control-lg {
 
 .btn-outline-primary {
   color: black;
-  border-color: #0DFA50;
+  border-color: #0BDE83;
 }
 .btn-outline-primary:hover {
   color: black;
-  background-color: #0DFA50;
-  border-color: #0DFA50;
+  background-color: #0BDE83;
+  border-color: #0BDE83;
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
-  box-shadow: 0 0 0 0.25rem #0DFA50;
+  box-shadow: 0 0 0 0.25rem #0BDE83;
 }
 .btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
   color: black;
-  background-color: #0DFA50;
-  border-color: #0DFA50;
+  background-color: #0BDE83;
+  border-color: #0BDE83;
 }
 .btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
-  box-shadow: 0 0 0 0.25rem #0DFA50;
+  box-shadow: 0 0 0 0.25rem #0BDE83;
 }
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-  color: #0DFA50;
+  color: #0BDE83;
   background-color: transparent;
 }
 
