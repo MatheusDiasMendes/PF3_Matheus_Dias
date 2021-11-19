@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body><br>
+    <section>
+        <div>
+            <header>
+                <h2 style="color:black">Poupança </h2>
+            </header>
+             
+                <nav>
+                    <label>Preencha seu nome</label><br><br>
+                    <input type="text" class="box btn btn-light" id= "nome" placeholder = "Ex: Matheus" required="required"><br><br>
+        
+                    <label>Valor aplicado mensalmente</label><br><br>
+                    <input type="number" class="box btn btn-light" id= "valor" placeholder = "Ex: R$100,00" required="required"><br><br>
+
+                    <label>Taxa de juros</label><br><br>
+                    <input type="number" class="box btn btn-light" id= "juros" placeholder = "Ex: 1%" required="required"><br><br>
+        
+                    <label>Número de parcelas mensais</label><br><br>
+                    <input type="number" class="box btn btn-light" id= "parcelas" placeholder = "Ex: 120X" required="required"><br><br><br>
+        
+                    <button type="button" class="butao btn-outline-primary" onclick="poupanca()" id="verificar">Verificar</button>
+                    <!--<button type="button" class="butao1 btn-outline-danger" oClick="limpar()" id="limpar">Limpar</button>-->
+                </nav>
+
+            <article>
+                    <img src="download.jpg" class="img"><br><br>
+                    <p style="color: white;">Imagens Meramente Ilustrativas</p>
+                    <p style="color: white;">&copy; Cotemig</p>
+                <footer>
+                    <p id = "texto"></p>
+                </footer>  
+
+            </article><br><br>
+
+                <!--<div class="result" id='resultado'></div>-->
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
